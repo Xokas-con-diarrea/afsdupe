@@ -162,7 +162,7 @@ local D = Y.Dropdown({
 	}
 })
 
-local NewButton = NewPage.Button({
+local A = Y.Button({
   -> Text <string[any]>
   -> Callback <function(void)>
   -> Menu <table>
